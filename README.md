@@ -9,11 +9,11 @@
 * Félix Lavoie
 
 ## Développement/programmation
-- [Votre nom]
+* Michael Un Dupré
 
 ## Technologies
-- HTML
-- CSS
-- JavaScript
-- [Librairie d'animation GSAP](https://greensock.com/gsap/)
-- [Plugiciel ScrollTrigger](https://greensock.com/scrolltrigger/)
+* HTML
+* CSS
+* JavaScript
+* [Librairie d'animation GSAP](https://greensock.com/gsap/)
+* [Plugiciel ScrollTrigger](https://greensock.com/scrolltrigger/)
