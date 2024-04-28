@@ -1,0 +1,49 @@
+<svg id="lines" xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Forme_1" data-name="Forme 1" class="cls-1" d="M947,336l-8-16-7-61Z"/>
+  <path id="Forme_2" data-name="Forme 2" class="cls-1" d="M1050,306l4,13,25-121Z"/>
+  <path id="Forme_3" data-name="Forme 3" class="cls-1" d="M1056,442l101-234-61,168Z"/>
+  <path id="Forme_4" data-name="Forme 4" class="cls-1" d="M1171,396l2-9,98-94Z"/>
+  <path id="Forme_5" data-name="Forme 5" class="cls-1" d="M1126,466l12-2,173-142Z"/>
+  <path id="Forme_6" data-name="Forme 6" class="cls-1" d="M1078,526l343-190L1144,497l351-188L1225,461l-16,12Z"/>
+  <path id="Forme_7" data-name="Forme 7" class="cls-1" d="M1172,503l162-70-103,49Z"/>
+  <path id="Forme_8" data-name="Forme 8" class="cls-1" d="M1142,552l255-68-177,59Z"/>
+  <path id="Forme_9" data-name="Forme 9" class="cls-1" d="M1325,558l6-6,126-15Z"/>
+  <path id="Forme_10" data-name="Forme 10" class="cls-1" d="M1102,601l49,7,369-11Z"/>
+  <path id="Forme_11" data-name="Forme 11" class="cls-1" d="M1144,625l33,11,239,30Z"/>
+  <path id="Forme_12" data-name="Forme 12" class="cls-1" d="M1124,635l5,8,68,15Z"/>
+  <path id="Forme_13" data-name="Forme 13" class="cls-1" d="M1092,646l288,88-284-91Z"/>
+  <path id="Forme_14" data-name="Forme 14" class="cls-1" d="M1077,655l52,36,343,125Z"/>
+  <path id="Forme_15" data-name="Forme 15" class="cls-1" d="M1135,714l31,19,245,103Z"/>
+  <path id="Forme_16" data-name="Forme 16" class="cls-1" d="M1215,794l24,24,60,40Z"/>
+  <path id="Forme_17" data-name="Forme 17" class="cls-1" d="M1141,774l7,15,27,21Z"/>
+  <path id="Forme_18" data-name="Forme 18" class="cls-1" d="M1045,766l15,26,21,25Z"/>
+  <path id="Forme_19" data-name="Forme 19" class="cls-1" d="M1023,763l16,31,38,52Z"/>
+  <path id="Forme_20" data-name="Forme 20" class="cls-1" d="M974,703l-9,47,1,144Z"/>
+  <path id="Forme_21" data-name="Forme 21" class="cls-1" d="M891,780l-22,22-43,62Z"/>
+  <path id="Forme_22" data-name="Forme 22" class="cls-1" d="M755,828l-44,42,45-38Z"/>
+  <path id="Forme_23" data-name="Forme 23" class="cls-1" d="M715,779l77-47,35-17Z"/>
+  <path id="Forme_24" data-name="Forme 24" class="cls-1" d="M857,691l-66,22L645,779Z"/>
+  <path id="Forme_25" data-name="Forme 25" class="cls-1" d="M869,663l-41,5L481,808Z"/>
+  <path id="Forme_26" data-name="Forme 26" class="cls-1" d="M829,637l-15,12L548,733Z"/>
+  <path id="Forme_27" data-name="Forme 27" class="cls-1" d="M744,645l-4,9-68,15Z"/>
+  <path id="Forme_28" data-name="Forme 28" class="cls-1" d="M728,632l-5-3L466,670Z"/>
+  <path id="Forme_29" data-name="Forme 29" class="cls-1" d="M830,612l-34-7L418,618Z"/>
+  <path id="Forme_30" data-name="Forme 30" class="cls-1" d="M592,547l-13,5L468,525Z"/>
+  <path id="Forme_31" data-name="Forme 31" class="cls-1" d="M803,573l-52-29L344,384Z"/>
+  <path id="Forme_32" data-name="Forme 32" class="cls-1" d="M800,548l-34-9L478,402Z"/>
+  <path id="Forme_33" data-name="Forme 33" class="cls-1" d="M813,515L459,332,749,478,564,377l107,54L381,277,686,430Z"/>
+  <path id="Forme_34" data-name="Forme 34" class="cls-1" d="M814,476l-37-41L496,195Z"/>
+  <path id="Forme_35" data-name="Forme 35" class="cls-1" d="M829,455v-7l-85-85Z"/>
+  <path id="Forme_36" data-name="Forme 36" class="cls-1" d="M842,446l1-10-33-30Z"/>
+  <path id="Forme_37" data-name="Forme 37" class="cls-1" d="M825,332l-16-26-42-53Z"/>
+  <path id="Forme_38" data-name="Forme 38" class="cls-1" d="M852,356l-24-66L770,175Z"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg id="Groupe_1" data-name="Groupe 1" xmlns="http://www.w3.org/2000/svg" width="478" height="548" viewBox="0 0 478 548">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #424840;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke-width: 1px;
+      }
+
+      .cls-3 {
+        fill: #d5cfc8;
+        stroke: #d5cfc8;
+        stroke-width: 1.22px;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke-width: 6.35px;
+      }
+    </style>
+  </defs>
+  <path id="nade" class="cls-1" d="M110,154c-0.648-1.936,2.412-11,14-11,0.526,0,65-30,65-30l64,41,81,170s1.1,4.52-4,8-21,9-21,9-10.03-4.5-6-10,17-11,17-11L247,167l-54-19,10,21s27.905-7.006,36,8a182.127,182.127,0,0,1,12,27s-2.518,12.242-4,13,75,160,75,160l17,8,13,30s-4.96,31.4-41,44-60.415,14.556-64,12-21-36-21-36l7-12L154,262s-9.845-1.072-12-4-16-38-16-38l18-22-15-33s-14.558,9.14-15-4S110.648,155.936,110,154Z"/>
+  <path id="Forme_3" data-name="Forme 3" class="cls-1" d="M-39,138"/>
+  <g id="ligne">
+    <path id="Ligne_1" data-name="Ligne 1" class="cls-2" d="M154.222,261.448l-0.444-.9,93-46,0.444,0.9Z"/>
+    <path id="Ligne_2" data-name="Ligne 2" class="cls-2" d="M321.77,376.556l0.46,0.888-89,46-0.46-.888Z"/>
+    <path id="Ligne_3" data-name="Ligne 3" class="cls-2" d="M143.211,199.453l-0.422-.906,58-27,0.422,0.906Z"/>
+    <path id="Ligne_4" data-name="Ligne 4" class="cls-2" d="M165.463,254.81l-0.926.38-23-56,0.926-.38Z"/>
+    <path id="Ligne_5" data-name="Ligne 5" class="cls-2" d="M228.447,222.776l-0.894.448-27-54,0.894-.448Z"/>
+    <path id="Ligne_6" data-name="Ligne 6" class="cls-2" d="M350.758,412.562l0.484,0.876-105,58-0.484-.876Z"/>
+    <path id="Ligne_7" data-name="Ligne 7" class="cls-2" d="M232.567,424.249l0.866-.5,23,40-0.866.5Z"/>
+    <path id="Ligne_8" data-name="Ligne 8" class="cls-2" d="M319.555,376.228l0.89-.456,22,43-0.89.456Z"/>
+  </g>
+  <path id="Forme_2" data-name="Forme 2" class="cls-3" d="M181.992,312.529L268.447,274,291,320.986l-84.575,42.288Z"/>
+  <path id="pin" class="cls-4" d="M239,93c24.853,0,45,19.476,45,43.5S263.853,180,239,180s-45-19.476-45-43.5S214.147,93,239,93Z"/>
+</svg>
