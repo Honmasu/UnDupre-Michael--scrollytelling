@@ -1,10 +1,92 @@
 gsap.registerPlugin(ScrollTrigger);
 
-// Create a timeline for the bouncing animation
-let tl = gsap.timeline({ repeat: -1 });
+gsap.to('.monstre1', { 
+    x: '-1080',
+    scrollTrigger: {
+      scrub: true,
+      markers: true,
+      start: 'top 0%',
+      end: 'bottom 50%',
+      trigger: '#Chapitre2',
+    }
+  })
 
-// Add tweens to the timeline to create the bouncing effect
-tl.to("#cta-icon img", { y: -20, ease: "none" })
-  .to("#cta-icon img", { y: 0, ease: "none" })
-  .to("#cta-icon img", { y: 20, ease: "none" })
-  .to("#cta-icon img", { y: 0, ease: "none" });
+  gsap.to('.monstre2', { 
+    x: '1080',
+    scrollTrigger: {
+      scrub: true,
+      markers: true,
+      start: 'top 20%',
+      end: 'bottom 60%',
+      trigger: '#Chapitre2',
+    }
+  })
+
+  gsap.to('.monstre3', { 
+    x: '1080',
+    scrollTrigger: {
+      scrub: true,
+      markers: true,
+      start: 'top 20%',
+      end: 'bottom 60%',
+      trigger: '#Chapitre3',
+    }
+  })
+
+  gsap.to('.monstre4', { 
+    x: '-1500',
+    scrollTrigger: {
+      scrub: true,
+      markers: true,
+      start: 'top 0%',
+      end: 'bottom 50%',
+      trigger: '#Chapitre3',
+    }
+  })
+
+  gsap.to('.pod', { 
+    x: '-1800',
+    y: '2300',
+    scrollTrigger: {
+      scrub: true,
+      markers: true,
+      start: 'top 0%',
+      end: 'bottom 10%',
+      trigger: 'header',
+    }
+  })
+
+  gsap.to('.pod_solo', { 
+    y: '400',
+    scrollTrigger: {
+      scrub: true,
+      markers: true,
+      start: 'top 0%',
+      end: 'bottom 90%',
+      trigger: '#Chapitre1',
+    }
+  })
+
+  gsap.to('.boom', { 
+    opacity: '1',
+    scrollTrigger: {
+      scrub: true,
+      markers: true,
+      start: 'top 00%',
+      end: 'bottom 40%',
+      trigger: '#Chapitre1',
+    }
+  })
+
+  gsap.to('.nade', { 
+    y: '1700',
+    rotate: '360',
+    scrollTrigger: {
+      scrub: true,
+      markers: true,
+      start: 'top 0%',
+      end: 'bottom 5%',
+      trigger: '#Chapitre2',
+    }
+  })
+

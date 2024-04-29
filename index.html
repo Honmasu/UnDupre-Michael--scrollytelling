@@ -5,59 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plonge</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="icon" type="image/png" href="images/favicon.png" sizes="64x64">
+    <link rel="icon" type="image/png" href="img/img_personnages/bug_left.png" sizes="64x64">
 </head>
 <body>
     <header>
         <h1 id="titre">Plonge</h1>
         <a href="#main" class="scroll-button">
             <span class="scroll-icon"></span>
-            <div id="cta-icon">
-                <img src="img/img_elements_visuels/arrow.png" alt="Défilez vers le bas">
+            <div id="icon">
+                <img src="img/img_elements_visuels/arrow.png" alt="Défilez vers le bas">            
             </div>
         </a>        
-        <p>projet créer dans le du cours d'optimisation web - integration multimedia créer par Michael Un Dupré</p>
+        <p class="descrip">projet créer dans le du cours d'optimisation web - integration multimedia créer par Michael Un Dupré</p>
+        <ul class="technique-gsap"> 
+            <li>translate</li> 
+            <li>spritesheet</li> 
+            <li>scrollTrigger 
+                <ul> 
+                    <li>trigger</li> 
+                    <li>...</li> 
+                </ul> 
+            </li> 
+        </ul>                
+        <p class="pod">
     </header>
     
     <main id="main">
        <!-- Début Chapitre 1 -->
 <section id="Chapitre1">
         <h2>Chapitre 1</h2>
+        <p class="para">notre hero descend sur la planète</p>
             <img class="sable" src="img/img_arriere_plan/sable.png">
             <img class="ciel" src="img/img_arriere_plan/ciel.png">
             <img class="montagne" src="img/img_arriere_plan/montgane.png">
-    <article>
-        <p>...</p>
+            <img class="pod_solo" src="img/img_personnages/pod_solo.png">
+            <img class="boom" src="img/img_elements_visuels/line_art.svg">
+            <ul class="technique-gsap"> 
+                <li>translate</li> 
+                <li>rotation</li>
+                <li>scrollTrigger 
+                    <ul> 
+                        <li>trigger</li> 
+                    </ul> 
+                </li> 
+            </ul>
 
-    </article>
 </section>
 
 <!-- Début Chapitre 2 -->
 <section id="Chapitre2">
         <h2>Chapitre 2</h2>
-            <img class="sable" src="img/img_arriere_plan/sable.png">
-            <img class="ciel" src="img/img_arriere_plan/ciel.png">
-            <img class="montagne" src="img/img_arriere_plan/montgane.png">
-    <article>
-        <p>...</p>
-        
-    </article>
+        <p class="para">le hero se retrouve face a des ennemies</p>
+        <img class="sable" src="img/img_arriere_plan/sable.png">
+        <img class="ciel" src="img/img_arriere_plan/ciel.png">
+        <img class="montagne" src="img/img_arriere_plan/montgane.png">
+        <img class="monstre1" src="img/img_personnages/bug_right.png">
+        <img class="monstre2" src="img/img_personnages/big_bug_right.png">
+        <img class="pod_solo_sable" src="img/img_personnages/pod_solo.png">
+        <img class="nade" src="img/img_elements_visuels/nade.svg">
+        <ul class="technique-gsap"> 
+            <li>translate</li> 
+            <li>rotate</li> 
+            <li>scrollTrigger 
+                <ul> 
+                    <li>trigger</li>  
+                </ul> 
+            </li> 
+        </ul>
 </section>
 
 <!-- Début Chapitre 3 -->
 <section id="Chapitre3">
         <h2>Chapitre 3</h2>
-    <article>
-        <p>...</p>
-        
-    </article>
+        <p class="para">le hero réussi à abattre tout les ennemies</p>
+        <img class="sable" src="img/img_arriere_plan/sable.png">
+        <img class="ciel" src="img/img_arriere_plan/ciel.png">
+        <img class="montagne" src="img/img_arriere_plan/montgane.png">
+        <img class="monstre3" src="img/img_personnages/bug_left.png">
+        <img class="monstre4" src="img/img_personnages/big_bug_left.png">
+        <img class="pod_solo_sable" src="img/img_personnages/pod_solo.png">
+        <ul class="technique-gsap"> 
+            <li>...</li> 
+            <li>...</li> 
+            <li>scrollTrigger 
+                <ul> 
+                    <li>trigger=</li> 
+                    <li>...</li> 
+                </ul> 
+            </li> 
+        </ul>
 </section>
     </main>
     
     <footer>
-        <p>Projet scrollytelling créé dans le cadre du cours Optimisation Web - Intégration multimédia - Collège Montmorency.</p>
-        <p>© 2024 - Conception : Michael Un Dupre et Félix Lavoie | Développement Web : Michael Un Dupré</p>
-        <p>Images utilisées avec la permission des artistes et des banques d'images suivants :</p>
+        <p id="footer">Projet scrollytelling créé dans le cadre du cours Optimisation Web - Intégration multimédia - Collège Montmorency.</p>
+        <p id="footer">© 2024 - Conception : Michael Un Dupre et Félix Lavoie | Développement Web : Michael Un Dupré</p>
+        <p id="footer">Images utilisées avec la permission des artistes et des banques d'images suivants :</p>
         <ul>
             <li>Michael Un Dupré</li>
             <li>Félix Lavoie</li>
@@ -65,6 +108,6 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-    <script src="script.js"></script>
+    <script src="/script/script.js"></script>
 </body>
 </html>
