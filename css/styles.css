@@ -1,14 +1,19 @@
 /*--------------------------------------------------------- 
 # Couleurs
----------------------------------------------------------*/ 
+---------------------------------------------------------*/
 :root {
-    --jaune-pale: #f7d154;      /* Jaune pâle */
-    --jaune: #ffcc00;           /* Jaune */
-    --orange: #ff6f61;          /* Orange */
-    --bleu-fonce: #2a2d3e;      /* Bleu foncé */
-    --bleu-pale: #6d87a3;       /* Bleu pâle */
-  }
-  
+    --jaune-pale: #f7d154;
+    /* Jaune pâle */
+    --jaune: #ffcc00;
+    /* Jaune */
+    --orange: #ff6f61;
+    /* Orange */
+    --bleu-fonce: #2a2d3e;
+    /* Bleu foncé */
+    --bleu-pale: #6d87a3;
+    /* Bleu pâle */
+}
+
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
@@ -17,14 +22,14 @@ body {
 }
 
 h1 {
-    color: #ffcc00; /* Yellow */
+    color: #ffcc00;
     font-size: 7rem;
     position: absolute;
 }
 
 h2 {
     position: absolute;
-    color: #6d87a3; /* Yellow */
+    color: #6d87a3;
     font-size: 7rem;
     z-index: 4;
     top: 100px;
@@ -32,7 +37,7 @@ h2 {
 
 .para {
     position: absolute;
-    color: #2a2d3e; /* Yellow */
+    color: #2a2d3e;
     font-size: 50px;
     z-index: 4;
     top: 300px;
@@ -40,15 +45,16 @@ h2 {
 
 .descrip {
     position: absolute;
-    color: #2a2d3e; /* Yellow */
+    color: #2a2d3e;
     font-size: 50px;
     z-index: 4;
     bottom: 0px;
     margin: 50px;
 }
+
 .descrip_1 {
     position: absolute;
-    color: #2a2d3e; /* Yellow */
+    color: #2a2d3e;
     font-size: 50px;
     z-index: 4;
     bottom: 0px;
@@ -57,12 +63,12 @@ h2 {
 
 #titre {
     position: absolute;
-    top: 10px; /* Adjust this value as needed */
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-/* Header Styles */
+
 header {
     height: 100vh;
     display: flex;
@@ -73,32 +79,32 @@ header {
 }
 
 .scroll-button {
-    margin-bottom: 20px; /* Adjust this value as needed */
+    margin-bottom: 20px;
 }
 
-/* Call-to-Action Styles */
+
 .scroll-icon img {
-    width: 5px; /* Adjust the width to make the arrow smaller */
-    height: 5px; /* Maintain aspect ratio */
+    width: 5px;
+    height: 5px;
     margin-bottom: 10px;
 }
 
 #icon img {
     position: absolute;
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 100px;
+    height: auto;
     bottom: 150px;
 }
 
-/* Main Section Styles */
+
 section {
-    height: 100vh; /* Set each section to take up the entire viewport height */
-    padding: 20px; /* Add some padding for spacing */
+    height: 100vh;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative; /* Position relative pour les éléments enfants positionnés en absolu */
+    position: relative;
 }
 
 .sable {
@@ -123,7 +129,7 @@ section {
     width: 100%;
 }
 
-.monstre1{
+.monstre1 {
     position: absolute;
     z-index: 3;
     width: 400px;
@@ -131,14 +137,14 @@ section {
     top: 900px;
 }
 
-.monstre2{
+.monstre2 {
     position: absolute;
     z-index: 3;
     width: 800px;
     left: -1000px;
 }
 
-.monstre3{
+.monstre3 {
     position: absolute;
     z-index: 3;
     width: 400px;
@@ -146,7 +152,7 @@ section {
     top: 900px;
 }
 
-.monstre4{
+.monstre4 {
     position: absolute;
     z-index: 3;
     width: 800px;
@@ -154,56 +160,61 @@ section {
 }
 
 .pod {
-    /* Styles pour la dimension */
+
     width: 650px;
     height: 1000px;
     position: absolute;
     bottom: 1300px;
     right: -100px;
 
-  
-    /* Styles pour l'image d'arrière plan */
+
+
     background-image: url('/img/img_personnages/pod_spritesheet.png');
     background-repeat: no-repeat;
-    
-    /* Styles pour l'animation */
+
     animation-name: plonge;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-timing-function: steps(3);
-  }
-  @keyframes plonge {
-    from { background-position: 0 0; }
-    to { background-position: -2000px 0; } 
-  }
+}
 
-  .pod_solo{
+@keyframes plonge {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -2000px 0;
+    }
+}
+
+.pod_solo {
     position: absolute;
     z-index: 2;
     top: -10%;
 }
 
-.pod_solo_sable{
+.pod_solo_sable {
     position: absolute;
     z-index: 2;
     top: 150px;
 }
 
-.boom{
+.boom {
     position: absolute;
     z-index: 2;
     opacity: 0;
 }
 
-.nade{
+.nade {
     position: absolute;
     z-index: 4;
     width: 200px;
     top: 550px;
 }
 
-ul.technique-gsap{
-    background: rgba(0,0,0,0.3);
+ul.technique-gsap {
+    background: rgba(0, 0, 0, 0.3);
     color: white;
     font-size: 10px;
     font-family: monospace;
@@ -219,13 +230,13 @@ ul.technique-gsap{
     left: 0;
 }
 
-ul.technique-gsap li{
+ul.technique-gsap li {
     margin: 5px 0;
 }
 
 footer {
-    background-color: #ff6361; /* Red */
-    color: #252020; /* White */
+    background-color: #ff6361;
+    color: #252020;
     padding: 50px;
     text-align: center;
 }
