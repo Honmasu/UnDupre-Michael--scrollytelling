@@ -72,7 +72,7 @@ h2 {
 header {
     height: 100vh;
     display: flex;
-    background-image: url('/img/img_arriere_plan/bgd_drop.png');
+    background-image: url('../img/img_arriere_plan/bgd_drop.png');
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -169,7 +169,7 @@ section {
 
 
 
-    background-image: url('/img/img_personnages/pod_spritesheet.png');
+    background-image: url('../img/img_personnages/pod_spritesheet.png');
     background-repeat: no-repeat;
 
     animation-name: plonge;
