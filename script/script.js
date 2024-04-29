@@ -1,5 +1,14 @@
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.to(".fleche", {
+  y: 20, // Move down by 50px
+  duration: 1, // Animation duration
+  ease: "power1.inOut", // Easing function
+  yoyo: true, // Yoyo back to original position
+  repeat: -1 // Repeat infinitely
+});
+
+
 gsap.to('.monstre1', { 
     x: '-1080',
     scrollTrigger: {

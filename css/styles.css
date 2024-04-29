@@ -46,6 +46,14 @@ h2 {
     bottom: 0px;
     margin: 50px;
 }
+.descrip_1 {
+    position: absolute;
+    color: #2a2d3e; /* Yellow */
+    font-size: 50px;
+    z-index: 4;
+    bottom: 0px;
+    margin: 100px;
+}
 
 #titre {
     position: absolute;
@@ -192,7 +200,6 @@ section {
     z-index: 4;
     width: 200px;
     top: 550px;
-    left: 1170px;
 }
 
 ul.technique-gsap{
