@@ -1,5 +1,29 @@
 gsap.registerPlugin(ScrollTrigger);
 
+/* ---- Animation header ----- */
+gsap.to(".start",{
+  scrollTrigger: {
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: 'top 0%',
+    end: 'bottom 100%',
+    trigger: '.pod',
+  },
+})
+
+gsap.to('.pod', {
+  x: '-1800',
+  y: '2300',
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+    start: 'top 0%',
+    end: 'bottom 10%',
+    trigger: 'header',
+  }
+})
+
 gsap.to(".fleche", {
   y: 20,
   duration: 1,
@@ -8,7 +32,33 @@ gsap.to(".fleche", {
   repeat: -1
 });
 
+/* ---- Animation chapter 1 ----- */
 
+gsap.to(".pod_solo",{
+  scrollTrigger: {
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: 'top 0%',
+    end: 'bottom 100%',
+    trigger: '#Chapitre1',
+  },
+})
+
+gsap.to('.boom', {
+  opacity: '1',
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+    start: 'top 00%',
+    end: 'bottom 40%',
+    trigger: '#Chapitre1',
+  }
+})
+
+mo
+
+/* ---- Animation chapter 2 ----- */
 gsap.to('.monstre1', {
   x: '-1080',
   scrollTrigger: {
@@ -31,6 +81,39 @@ gsap.to('.monstre2', {
   }
 })
 
+gsap.to('.pod_solo', {
+  y: '400',
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+    start: 'top 0%',
+    end: 'bottom 90%',
+    trigger: '#Chapitre1',
+  }
+})
+
+gsap.to('.nade', {
+  y: '1700',
+  rotate: '360',
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+    start: 'top 0%',
+    end: 'bottom 5%',
+    trigger: '#Chapitre2',
+  }
+})
+/* ---- Animation chapter 3 ----- */
+gsap.to(".monstre3",{
+  scrollTrigger: {
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: 'top 0%',
+    end: 'bottom 100%',
+    trigger: '#chapitre3',
+  },
+})
 gsap.to('.monstre3', {
   x: '1080',
   scrollTrigger: {
@@ -53,83 +136,27 @@ gsap.to('.monstre4', {
   }
 })
 
-gsap.to('.pod', {
-  x: '-1800',
-  y: '2300',
-  scrollTrigger: {
-    scrub: true,
-    markers: true,
-    start: 'top 0%',
-    end: 'bottom 10%',
-    trigger: 'header',
-  }
-})
 
-gsap.to('.pod_solo', {
-  y: '400',
-  scrollTrigger: {
-    scrub: true,
-    markers: true,
-    start: 'top 0%',
-    end: 'bottom 90%',
-    trigger: '#Chapitre1',
-  }
-})
 
-gsap.to('.boom', {
-  opacity: '1',
-  scrollTrigger: {
-    scrub: true,
-    markers: true,
-    start: 'top 00%',
-    end: 'bottom 40%',
-    trigger: '#Chapitre1',
-  }
-})
 
-gsap.to('.nade', {
-  y: '1700',
-  rotate: '360',
-  scrollTrigger: {
-    scrub: true,
-    markers: true,
-    start: 'top 0%',
-    end: 'bottom 5%',
-    trigger: '#Chapitre2',
-  }
-})
 
-gsap.to("#Chapitre1",{
-  scrollTrigger: {
-    pin: true,
-    scrub: true,
-    markers: true,
-    start: 'top 0%',
-    end: 'bottom 100%',
-    trigger: '#Chapitre1',
-  },
-})
 
-gsap.to("#Chapitre3",{
-  scrollTrigger: {
-    pin: true,
-    scrub: true,
-    markers: true,
-    start: 'top 0%',
-    end: 'bottom 100%',
-    trigger: '#Chapitre3',
-  },
-})
 
-gsap.to(".start",{
-  scrollTrigger: {
-    pin: true,
-    scrub: true,
-    markers: true,
-    start: 'top 0%',
-    end: 'bottom 100%',
-    trigger: '.start',
-  },
-})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
