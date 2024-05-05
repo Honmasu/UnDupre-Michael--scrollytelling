@@ -99,3 +99,37 @@ gsap.to('.nade', {
   }
 })
 
+gsap.to("#Chapitre1",{
+  scrollTrigger: {
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: 'top 0%',
+    end: 'bottom 100%',
+    trigger: '#Chapitre1',
+  },
+})
+
+gsap.to("#Chapitre3",{
+  scrollTrigger: {
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: 'top 0%',
+    end: 'bottom 100%',
+    trigger: '#Chapitre3',
+  },
+})
+
+gsap.to(".start",{
+  scrollTrigger: {
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: 'top 0%',
+    end: 'bottom 100%',
+    trigger: '.start',
+  },
+})
+
+

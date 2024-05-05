@@ -49,7 +49,7 @@ h2 {
     font-size: 50px;
     z-index: 4;
     bottom: 0px;
-    margin: 50px;
+    margin: 500px;
 }
 
 .descrip_1 {
@@ -58,7 +58,7 @@ h2 {
     font-size: 50px;
     z-index: 4;
     bottom: 0px;
-    margin: 100px;
+    margin: 300px;
 }
 
 #titre {
@@ -164,8 +164,8 @@ section {
     width: 650px;
     height: 1000px;
     position: absolute;
-    bottom: 1300px;
-    right: -100px;
+    bottom: 90vh;
+    right: -20vh;
 
 
 
@@ -191,19 +191,40 @@ section {
 .pod_solo {
     position: absolute;
     z-index: 2;
-    top: -10%;
+    top: -10vh;
 }
 
 .pod_solo_sable {
     position: absolute;
     z-index: 2;
-    top: 150px;
+    top: 10vh;
 }
 
 .boom {
     position: absolute;
     z-index: 2;
     opacity: 0;
+    width: 1800px;
+    height: 1000px;
+    position: absolute;
+
+    background-image: url('../img/img_elements_visuels/spritesheet_zoom.png');
+    background-repeat: no-repeat;
+
+    animation-name: boom;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(2);
+}
+
+@keyframes boom {
+    from {
+        background-position: 0px 0;
+    }
+
+    to {
+        background-position: -4000px 0;
+    }
 }
 
 .nade {
