@@ -168,6 +168,14 @@ tl.to(".pod2", {
   }
 });
 
+/* ---- Animation chapter 6 ----- */
+gsap.to(".cercle", {
+  duration: 3, 
+  morphSVG:{
+    shape:".soleil", 
+    shapeIndex:5
+  }
+});
 
 
 
