@@ -127,6 +127,16 @@ section {
     height: 100%;
     background-size: cover;
     width: 100%;
+    top: 200;
+}
+
+.galaxie{
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+    top: 200;
 }
 
 .monstre1 {
@@ -188,6 +198,35 @@ section {
     }
 }
 
+.pod2 {
+
+    width: 650px;
+    height: 1000px;
+    position: absolute;
+    z-index: 3;
+    transform: rotate(360deg);
+    left: -70vh;
+
+
+    background-image: url('../img/img_personnages/pod_spritesheet.png');
+    background-repeat: no-repeat;
+
+    animation-name: vol;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(3);
+}
+
+@keyframes vol {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -2000px 0;
+    }
+}
+
 .pod_solo {
     position: absolute;
     z-index: 2;
@@ -231,7 +270,7 @@ section {
     position: absolute;
     z-index: 4;
     width: 200px;
-    top: 550px;
+    top: 50vh;
 }
 
 ul.technique-gsap {
@@ -260,4 +299,31 @@ footer {
     color: #252020;
     padding: 50px;
     text-align: center;
+}
+
+/* ---- chapter 4 parallax----- */
+.parallax-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.layer1 {
+    background-image: url('../img/img_arriere_plan/explosion_red.png');
+    z-index: 3;
+    top: 30%;
+}
+
+.layer2 {
+    background-image: url('../img/img_arriere_plan/explosion_redish.png');
+    z-index: 3;
+    top: 30%;
+}
+
+.layer3 {
+    background-image: url('../img/img_arriere_plan/explosion_orange.png');
+    z-index: 3;
+    top: 20%;
 }
