@@ -25,7 +25,7 @@ gsap.to('.pod', {
 })
 
 gsap.to(".fleche", {
-  y: 20,
+  y: '2vh',
   duration: 1,
   ease: "power1.inOut",
   yoyo: true,
@@ -58,7 +58,7 @@ gsap.to('.boom', {
 
 /* ---- Animation chapter 2 ----- */
 gsap.to('.monstre1', {
-  x: '-1080',
+  x: '-50vw',
   scrollTrigger: {
     scrub: true,
     markers: true,
@@ -69,7 +69,7 @@ gsap.to('.monstre1', {
 })
 
 gsap.to('.monstre2', {
-  x: '1080',
+  x: '50vw',
   scrollTrigger: {
     scrub: true,
     markers: true,
@@ -80,7 +80,7 @@ gsap.to('.monstre2', {
 })
 
 gsap.to('.pod_solo', {
-  y: '400',
+  y: '20vh',
   scrollTrigger: {
     scrub: true,
     markers: true,
@@ -114,7 +114,7 @@ gsap.to(".monstre3",{
   },
 })
 gsap.to('.monstre3', {
-  x: '1080',
+  x: '50vw',
   scrollTrigger: {
     scrub: true,
     markers: true,
@@ -125,7 +125,7 @@ gsap.to('.monstre3', {
 })
 
 gsap.to('.monstre4', {
-  x: '-1500',
+  x: '-50vw',
   scrollTrigger: {
     scrub: true,
     markers: true,
@@ -176,7 +176,6 @@ gsap.to(".cercle", {
     shapeIndex:5
   }
 });
-
 
 
 

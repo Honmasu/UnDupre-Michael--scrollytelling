@@ -23,47 +23,49 @@ body {
 
 h1 {
     color: #ffcc00;
-    font-size: 7rem;
+    font-size: 10vh;
     position: absolute;
 }
 
 h2 {
     position: absolute;
     color: #6d87a3;
-    font-size: 7rem;
+    font-size: 10vh;
     z-index: 4;
-    top: 100px;
+    top: 10vh;
 }
 
 .para {
     position: absolute;
     color: #2a2d3e;
-    font-size: 50px;
+    font-size: 5vh;
     z-index: 4;
-    top: 300px;
+    top: 30vh;
 }
 
 .descrip {
     position: absolute;
     color: #2a2d3e;
-    font-size: 50px;
+    font-size: 2vh;
     z-index: 4;
-    bottom: 0px;
-    margin: 500px;
+    bottom: 0vh;
+    margin-bottom: 30vh;
+    margin-left: 5vh;
 }
 
 .descrip_1 {
     position: absolute;
     color: #2a2d3e;
-    font-size: 50px;
+    font-size: 4vh;
     z-index: 4;
-    bottom: 0px;
-    margin: 300px;
+    bottom: 0vh;
+    margin-bottom: 60vh;
+    margin-left: 5vh;
 }
 
 #titre {
     position: absolute;
-    top: 10px;
+    top: 10vh;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -79,21 +81,21 @@ header {
 }
 
 .scroll-button {
-    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0vh;
 }
 
 
 .scroll-icon img {
-    width: 5px;
-    height: 5px;
-    margin-bottom: 10px;
+    width: 5vh;
+    height: 5vh;
 }
 
 #icon img {
     position: absolute;
-    width: 100px;
+    width: 10vh;
     height: auto;
-    bottom: 150px;
+    bottom: 15vh;
 }
 
 
@@ -142,31 +144,31 @@ section {
 .monstre1 {
     position: absolute;
     z-index: 3;
-    width: 400px;
-    right: -1000px;
-    top: 900px;
+    width: 40vh;
+    right: -50vh;
+    top: 40vh;
 }
 
 .monstre2 {
     position: absolute;
     z-index: 3;
-    width: 800px;
-    left: -1000px;
+    width: 80vh;
+    left: -80vh;
 }
 
 .monstre3 {
     position: absolute;
     z-index: 3;
-    width: 400px;
-    right: 0px;
-    top: 900px;
+    width: 40vh;
+    right: 30vh;
+    top: 40vh;
 }
 
 .monstre4 {
     position: absolute;
     z-index: 3;
-    width: 800px;
-    left: 180px;
+    width: 80vh;
+    left: 0vh;
 }
 
 .pod {
@@ -201,7 +203,7 @@ section {
 .pod2 {
 
     width: 650px;
-    height: 1000px;
+    height: 100vh;
     position: absolute;
     z-index: 3;
     transform: rotate(360deg);
@@ -230,12 +232,14 @@ section {
 .pod_solo {
     position: absolute;
     z-index: 2;
+    width: 150vh;
     top: -10vh;
 }
 
 .pod_solo_sable {
     position: absolute;
     z-index: 2;
+    width: 150vh;
     top: 10vh;
 }
 
@@ -269,7 +273,7 @@ section {
 .nade {
     position: absolute;
     z-index: 4;
-    width: 200px;
+    width: 20vh;
     top: 50vh;
 }
 
@@ -297,14 +301,14 @@ ul.technique-gsap li {
 footer {
     background-color: #ff6361;
     color: #252020;
-    padding: 50px;
+    padding: 5vh;
     text-align: center;
 }
 
 /* ---- chapter 4 parallax----- */
 .parallax-layer {
     position: absolute;
-    width: 100%;
+    width: 250vh;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -313,19 +317,19 @@ footer {
 .layer1 {
     background-image: url('../img/img_arriere_plan/explosion_red.png');
     z-index: 3;
-    top: 30%;
+    top: 30vh;
 }
 
 .layer2 {
     background-image: url('../img/img_arriere_plan/explosion_redish.png');
     z-index: 3;
-    top: 30%;
+    top: 30vh;
 }
 
 .layer3 {
     background-image: url('../img/img_arriere_plan/explosion_orange.png');
     z-index: 3;
-    top: 20%;
+    top: 20vh;
 }
 
 /* ---- chapter 5 parallax----- */
