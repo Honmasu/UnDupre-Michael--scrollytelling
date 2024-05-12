@@ -29,23 +29,23 @@ h1 {
 
 h2 {
     position: absolute;
-    color: #6d87a3;
+    color: #ffcc00;
     font-size: 10vh;
     z-index: 4;
-    top: 10vh;
+    top: 0vh;
 }
 
 .para {
     position: absolute;
-    color: #2a2d3e;
+    color: #ffcc00;
     font-size: 5vh;
     z-index: 4;
-    top: 30vh;
+    top: 20vh;
 }
 
 .descrip {
     position: absolute;
-    color: #2a2d3e;
+    color: #ffcc00;
     font-size: 2vh;
     z-index: 4;
     bottom: 0vh;
@@ -55,7 +55,7 @@ h2 {
 
 .descrip_1 {
     position: absolute;
-    color: #2a2d3e;
+    color: #ffcc00;
     font-size: 4vh;
     z-index: 4;
     bottom: 0vh;
@@ -248,11 +248,10 @@ section {
     z-index: 2;
     opacity: 0;
     width: 1800px;
-    height: 1000px;
+    height: 900px;
     position: absolute;
 
     background-image: url('../img/img_elements_visuels/spritesheet_zoom.png');
-    background-repeat: no-repeat;
 
     animation-name: boom;
     animation-duration: 1s;
@@ -308,7 +307,7 @@ footer {
 /* ---- chapter 4 parallax----- */
 .parallax-layer {
     position: absolute;
-    width: 250vh;
+    width: 100%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -334,17 +333,25 @@ footer {
 
 /* ---- chapter 5 parallax----- */
 
-.cercle {
+#cercle1 {
     width: 50px;
     height: 50px;
     fill: blue;
     z-index: 3;
   }
   
-  .soleil {
+  #soleil1 {
     width: 100px;
     height: 100px;
-    fill: yellow;
     z-index: 3;
-    visibility:hidden;
+  }
+  #soleil2 {
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+  }
+  #soleil3 {
+    width: 100px;
+    height: 100px;
+    z-index: 3;
   }

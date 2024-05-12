@@ -1,4 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(DrawSVGPlugin);
+
 
 /* ---- Animation header ----- */
 gsap.to(".start",{
@@ -13,8 +15,8 @@ gsap.to(".start",{
 })
 
 gsap.to('.pod', {
-  x: '-1800',
-  y: '2300',
+  x: '-180vh',
+  y: '230vh',
   scrollTrigger: {
     scrub: true,
     markers: true,
@@ -34,6 +36,7 @@ gsap.to(".fleche", {
 
 /* ---- Animation chapter 1 ----- */
 
+
 gsap.to(".pod_solo",{
   scrollTrigger: {
     pin: true,
@@ -41,7 +44,7 @@ gsap.to(".pod_solo",{
     markers: true,
     start: 'top 0%',
     end: 'bottom 100%',
-    trigger: '#Chapitre1',
+    trigger: '#chapitre1',
   },
 })
 
@@ -50,7 +53,7 @@ gsap.to('.boom', {
   scrollTrigger: {
     scrub: true,
     markers: true,
-    start: 'top 00%',
+    start: 'top 0%',
     end: 'bottom 40%',
     trigger: '#Chapitre1',
   }
@@ -142,6 +145,7 @@ const parallaxTimeline = gsap.timeline({
       trigger: "#Chapitre4",
       start: 'top 0%',
       end: 'bottom 50%',
+      toggleActions: "restart pause resume pause"
   }
 });
 
@@ -169,13 +173,28 @@ tl.to(".pod2", {
 });
 
 /* ---- Animation chapter 6 ----- */
-gsap.to(".cercle", {
+/*gsap.to(".cercle", {
   duration: 3, 
   morphSVG:{
     shape:".soleil", 
     shapeIndex:5
   }
+});*/
+  
+gsap.timeline({
+  scrollTrigger: {
+      scrub: true,
+      markers: true,
+      start: 'top 0%',
+      end: 'bottom 100%',
+      trigger: '#Chapitre5',
+  }
+}).fromTo("#soleil1", {drawSVG:"0%"}, {
+  drawSVG:"100%",
+  duration: 500, // Adjust the duration as needed
 });
+
+
 
 
 
