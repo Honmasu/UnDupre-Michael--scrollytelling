@@ -3,6 +3,9 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(MorphSVGPlugin);*/
 
 /* ---- Animation header ----- */
+/*utilisation du scrub*/
+/*utilisation du pin*/
+
 gsap.timeline({
   scrollTrigger: {
     pin: true,
@@ -39,6 +42,8 @@ gsap.to(".fleche", {
 });
 
 /* ---- Animation chapter 1 ----- */
+/*utilisation du scrub*/
+
 gsap.timeline({
   scrollTrigger: {
     pin: true,
@@ -64,6 +69,7 @@ gsap.timeline({
 });
 
 /* ---- Animation chapter 2 ----- */
+/*utilisation du scrub*/
 
 /* transition du monstre 1 */
 gsap.timeline({
@@ -119,6 +125,8 @@ gsap.timeline({
 });
 
 /* ---- Animation chapter 3 ----- */
+/*utilisation du scrub*/
+
 
 /* transition du monstre 3 */
 gsap.timeline({
