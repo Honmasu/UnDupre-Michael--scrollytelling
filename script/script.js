@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
-/*gsap.registerPlugin(DrawSVGPlugin);
-gsap.registerPlugin(MorphSVGPlugin);*/
+gsap.registerPlugin(DrawSVGPlugin);
+gsap.registerPlugin(MorphSVGPlugin);
 
 /* ---- Animation header ----- */
 /*utilisation du scrub*/
@@ -186,7 +186,7 @@ parallaxTimeline.to('.layer3', { yPercent: -20 })
 
 /* ---- Animation chapter 5 ----- */
 
-/* pod suit le path 
+/* pod suit le path */
 const path = "M9,100c0,0,85.53,-185.58,199.91,-310.11c130,-100,280.81,-148.88,330.39,-148.88c138.87,0,275.55,67.71,370.05,134.47c110.09,98.85,203.33,237.79,317.71,367.77c140.09,138.89,334.44,267.75,623.37,267.75c122.23,0,306.62,-38.83,455.84,-84.43c177.97,-64.45,342.21,-208.88,447.78,-347.7c143.35,-177.75,144.43,-263.37,144.43,-263.37";
 const tl = gsap.timeline({ repeat: -1, yoyo: true });
 tl.to(".pod2", {
@@ -200,7 +200,7 @@ tl.to(".pod2", {
   }
 });
 
-/* draw svg
+/* draw svg */
 gsap.set("#soleil3", { x: 200, y: 200 });
 gsap.to("#soleil3", {
   duration: 5,
@@ -209,7 +209,7 @@ gsap.to("#soleil3", {
   yoyo: true,
 });
 
-/*-- morph --
+/*-- morph -- */
 gsap.set("#cercle", { x: -50, y: 200 });
 gsap.set("#soleil", { x: 200, y: 200 });
 
@@ -221,7 +221,7 @@ gsap.to("#cercle", {
   ease: "power1.inOut"
 });
 
-/*-- morph 2--
+/*-- morph 2-- */
 gsap.set("#cercle2", { x: -50, y: 400 });
 gsap.set("#soleil2", { x: 200, y: 200 });
 
@@ -231,4 +231,4 @@ gsap.to("#cercle2", {
   repeat: -1,
   yoyo: true,
   ease: "power1.inOut"
-});*/
+});
