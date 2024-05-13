@@ -6,12 +6,12 @@
 ## Problème #1
 ### les image prend trop de place sur mon site
 ### je devrais mettres mes images en laoding lazy
-### 
+### le lazy loading aide les images a loader une a la fois
 
 ## Problème #2
 ### les images prennent trop de volume sur le site
 ### mes image png devraient être en webp
-### 
+### le changement des image en webp a aider pour le chargement des images
 
 # Problème #3
 ### le code est trop grand

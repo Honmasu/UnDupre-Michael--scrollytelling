@@ -74,7 +74,7 @@ h2 {
 header {
     height: 100vh;
     display: flex;
-    background-image: url('../img/img_arriere_plan/bgd_drop.png');
+    background-image: url('../img/img_arriere_plan/bgd_drop.webp');
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -181,7 +181,7 @@ section {
 
 
 
-    background-image: url('../img/img_personnages/pod_spritesheet.png');
+    background-image: url('../img/img_personnages/pod_spritesheet.webp');
     background-repeat: no-repeat;
 
     animation-name: plonge;
@@ -211,7 +211,7 @@ section {
     top: 10vh;
 
 
-    background-image: url('../img/img_personnages/pod_spritesheet.png');
+    background-image: url('../img/img_personnages/pod_spritesheet.webp');
     background-repeat: no-repeat;
 
     animation-name: vol;
@@ -252,7 +252,7 @@ section {
     height: 900px;
     position: absolute;
 
-    background-image: url('../img/img_elements_visuels/spritesheet_zoom.png');
+    background-image: url('../img/img_elements_visuels/spritesheet_zoom.webp');
 
     animation-name: boom;
     animation-duration: 1s;
@@ -315,19 +315,19 @@ footer {
 }
 
 .layer1 {
-    background-image: url('../img/img_arriere_plan/explosion_red.png');
+    background-image: url('../img/img_arriere_plan/explosion_red.webp');
     z-index: 3;
     top: 30vh;
 }
 
 .layer2 {
-    background-image: url('../img/img_arriere_plan/explosion_redish.png');
+    background-image: url('../img/img_arriere_plan/explosion_redish.webp');
     z-index: 3;
     top: 30vh;
 }
 
 .layer3 {
-    background-image: url('../img/img_arriere_plan/explosion_orange.png');
+    background-image: url('../img/img_arriere_plan/explosion_orange.webp');
     z-index: 3;
     top: 20vh;
 }
