@@ -132,9 +132,9 @@ section {
     top: 200;
 }
 
-.galaxie{
+.galaxie {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     height: 100%;
     background-size: cover;
     width: 100%;
@@ -205,9 +205,10 @@ section {
     width: 650px;
     height: 100vh;
     position: absolute;
-    z-index: 3;
+    z-index: 5;
     transform: rotate(360deg);
-    left: -70vh;
+    left: -50vh;
+    top: 10vh;
 
 
     background-image: url('../img/img_personnages/pod_spritesheet.png');
@@ -333,25 +334,60 @@ footer {
 
 /* ---- chapter 5 parallax----- */
 
-#cercle1 {
-    width: 50px;
-    height: 50px;
-    fill: blue;
-    z-index: 3;
-  }
-  
-  #soleil1 {
-    width: 100px;
-    height: 100px;
-    z-index: 3;
-  }
-  #soleil2 {
-    width: 100px;
-    height: 100px;
-    z-index: 3;
-  }
-  #soleil3 {
-    width: 100px;
-    height: 100px;
-    z-index: 3;
-  }
+#cercle {
+    width: 10vh;
+    height: 10vh;
+    fill: orange;
+    z-index: 4;
+    stroke-width: 0.5px;
+    stroke: #ffcc00;
+}
+
+#soleil {
+    width: 10vh;
+    height: 10vh;
+    fill: orange;
+    z-index: 4;
+    visibility: hidden;
+    stroke-width: 0.5px;
+    stroke: #ffcc00;
+}
+
+#svg {
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+#cercle2 {
+    width: 10vh;
+    height: 10vh;
+    fill: orange;
+    z-index: 4;
+    stroke-width: 0.5px;
+    stroke: #ffcc00;
+}
+
+#soleil2 {
+    width: 10vh;
+    height: 10vh;
+    fill: orange;
+    z-index: 4;
+    visibility: hidden;
+    stroke-width: 0.5px;
+    stroke: #ffcc00;
+}
+
+#svg2 {
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+#soleil3 {
+    width: 100vh;
+    height: 100vh;
+    z-index: 4;
+    stroke-width: 1px;
+    stroke: orange;
+}
